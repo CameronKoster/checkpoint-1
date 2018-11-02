@@ -1,9 +1,10 @@
 
 
-
-
-
 let health = 100;
+let enemy = "Josh";
+let hits = 0;
+
+
 
 function slap() {
   health--
@@ -11,12 +12,12 @@ function slap() {
 }
 
 function punch() {
-  health--
+  health -= 5
   update()
 }
 
 function kick() {
-  health--
+  health -= 10
   update()
 }
 
