@@ -25,7 +25,11 @@ function kick() {
 
 function update() {
 
+
+
   document.getElementById("health").innerText = health
+  document.getElementById("enemy").innerText = enemy
+  document.getElementById("hits").innerText = hits
 }
 
 
